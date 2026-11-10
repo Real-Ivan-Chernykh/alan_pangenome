@@ -1,0 +1,37 @@
+Assembly Name	Assembly Accession	Assembly Paired Assembly Accession	Organism Name	Organism Infraspecific Names Breed	Organism Infraspecific Names Strain	Organism Infraspecific Names Cultivar	Organism Infraspecific Names Ecotype	Organism Infraspecific Names Isolate	Organism Infraspecific Names Sex	Annotation Name	Assembly Level	Assembly Release Date	WGS project accession	Assembly Stats Number of Scaffolds
+ASM1144v1	GCA_000011445.1	GCF_000011445.1	Mycoplasma mycoides subsp. mycoides SC str. PG1		PG1					Annotation submitted by Royal Institute of Technology, Stockholm, Sweden	Complete Genome	2007-02-27		1
+ASM1144v1	GCF_000011445.1	GCA_000011445.1	Mycoplasma mycoides subsp. mycoides SC str. PG1		PG1					GCF_000011445.1-RS_2025_02_25	Complete Genome	2007-02-27		1
+ASM5105418v1	GCA_051054185.1	GCF_051054185.1	Mycoplasma mycoides subsp. mycoides		6364					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2025-06-25		1
+ASM5105418v1	GCF_051054185.1	GCA_051054185.1	Mycoplasma mycoides subsp. mycoides		6364					GCF_051054185.1-RS_2025_06_26	Complete Genome	2025-06-25		1
+ASM5105243v1	GCA_051052435.1	GCF_051052435.1	Mycoplasma mycoides subsp. mycoides		Afade-1					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2025-06-25		1
+ASM5105243v1	GCF_051052435.1	GCA_051052435.1	Mycoplasma mycoides subsp. mycoides		Afade-1					GCF_051052435.1-RS_2025_06_26	Complete Genome	2025-06-25		1
+ASM5105239v1	GCA_051052395.1	GCF_051052395.1	Mycoplasma mycoides subsp. mycoides		Fatick					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2025-06-25		1
+ASM5105239v1	GCF_051052395.1	GCA_051052395.1	Mycoplasma mycoides subsp. mycoides		Fatick					GCF_051052395.1-RS_2025_06_26	Complete Genome	2025-06-25		1
+ASM80078v1	GCA_000800785.1	GCF_000800785.1	Mycoplasma mycoides subsp. mycoides		izsam_mm5713					Annotation submitted by IZSAM	Complete Genome	2014-12-11		1
+ASM80078v1	GCF_000800785.1	GCA_000800785.1	Mycoplasma mycoides subsp. mycoides		izsam_mm5713					GCF_000800785.1-RS_2026_02_26	Complete Genome	2014-12-11		1
+ASM156443v1	GCA_001564435.1	GCF_001564435.1	Mycoplasma mycoides subsp. mycoides		T1/44					Annotation submitted by INRA Univ Bordeaux	Complete Genome	2016-02-22		1
+ASM156443v1	GCF_001564435.1	GCA_001564435.1	Mycoplasma mycoides subsp. mycoides		T1/44					GCF_001564435.1-RS_2026_02_26	Complete Genome	2016-02-22		1
+ASM5105242v1	GCA_051052425.1	GCF_051052425.1	Mycoplasma mycoides subsp. mycoides		B773-125					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2025-06-25		1
+ASM5105242v1	GCF_051052425.1	GCA_051052425.1	Mycoplasma mycoides subsp. mycoides		B773-125					GCF_051052425.1-RS_2025_06_26	Complete Genome	2025-06-25		1
+ASM5105226v1	GCA_051052265.1	GCF_051052265.1	Mycoplasma mycoides subsp. mycoides		PO-2					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2025-06-25		1
+ASM5105226v1	GCF_051052265.1	GCA_051052265.1	Mycoplasma mycoides subsp. mycoides		PO-2					GCF_051052265.1-RS_2025_06_26	Complete Genome	2025-06-25		1
+ASM5971866v1	GCA_059718665.1	GCF_059718665.1	Mycoplasma mycoides subsp. mycoides		V					Annotation submitted by NIAH, NARO	Complete Genome	2026-05-12		1
+ASM5971866v1	GCF_059718665.1	GCA_059718665.1	Mycoplasma mycoides subsp. mycoides		V					GCF_059718665.1-RS_2026_08_01	Complete Genome	2026-05-12		1
+ASM5105419v1	GCA_051054195.1	GCF_051054195.1	Mycoplasma mycoides subsp. mycoides		4378					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2025-06-25		1
+ASM5105419v1	GCF_051054195.1	GCA_051054195.1	Mycoplasma mycoides subsp. mycoides		4378					GCF_051054195.1-RS_2025_06_26	Complete Genome	2025-06-25		1
+ASM5105417v1	GCA_051054175.1	GCF_051054175.1	Mycoplasma mycoides subsp. mycoides		91130					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2025-06-25		1
+ASM5105417v1	GCF_051054175.1	GCA_051054175.1	Mycoplasma mycoides subsp. mycoides		91130					GCF_051054175.1-RS_2025_06_26	Complete Genome	2025-06-25		1
+ASM5105423v1	GCA_051054235.1	GCF_051054235.1	Mycoplasma mycoides subsp. mycoides		2059					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2025-06-25		1
+ASM5105423v1	GCF_051054235.1	GCA_051054235.1	Mycoplasma mycoides subsp. mycoides		2059					GCF_051054235.1-RS_2025_06_26	Complete Genome	2025-06-25		1
+ASM155407v1	GCA_001554075.1	GCF_001554075.1	Mycoplasma mycoides subsp. mycoides		Ben50					Annotation submitted by Chinese National Human Genome Center at Shanghai	Complete Genome	2016-02-09		1
+ASM155407v1	GCF_001554075.1	GCA_001554075.1	Mycoplasma mycoides subsp. mycoides		Ben50					GCF_001554075.1-RS_2026_02_26	Complete Genome	2016-02-09		1
+ASM155405v1	GCA_001554055.1	GCF_001554055.1	Mycoplasma mycoides subsp. mycoides		Ben1					Annotation submitted by Chinese National Human Genome Center at Shanghai	Complete Genome	2016-02-09		1
+ASM155405v1	GCF_001554055.1	GCA_001554055.1	Mycoplasma mycoides subsp. mycoides		Ben1					GCF_001554055.1-RS_2026_02_26	Complete Genome	2016-02-09		1
+ASM155411v1	GCA_001554115.1	GCF_001554115.1	Mycoplasma mycoides subsp. mycoides		Ben326					Annotation submitted by Chinese National Human Genome Center at Shanghai	Complete Genome	2016-02-09		1
+ASM155411v1	GCF_001554115.1	GCA_001554115.1	Mycoplasma mycoides subsp. mycoides		Ben326					GCF_001554115.1-RS_2026_03_05	Complete Genome	2016-02-09		1
+ASM155415v1	GCA_001554155.1	GCF_001554155.1	Mycoplasma mycoides subsp. mycoides		Ben468					Annotation submitted by Chinese National Human Genome Center at Shanghai	Complete Genome	2016-02-09		1
+ASM155415v1	GCF_001554155.1	GCA_001554155.1	Mycoplasma mycoides subsp. mycoides		Ben468					GCF_001554155.1-RS_2026_02_26	Complete Genome	2016-02-09		1
+ASM14386v1	GCA_000143865.1	GCF_000143865.1	Mycoplasma mycoides subsp. mycoides SC str. Gladysdale		Gladysdale					Annotation submitted by JCVI	Complete Genome	2010-07-26		1
+ASM14386v1	GCF_000143865.1	GCA_000143865.1	Mycoplasma mycoides subsp. mycoides SC str. Gladysdale		Gladysdale					GCF_000143865.1-RS_2026_02_26	Complete Genome	2010-07-26		1
+ASM155409v1	GCA_001554095.1	GCF_001554095.1	Mycoplasma mycoides subsp. mycoides		Ben181					Annotation submitted by Chinese National Human Genome Center at Shanghai	Complete Genome	2016-02-09		1
+ASM155409v1	GCF_001554095.1	GCA_001554095.1	Mycoplasma mycoides subsp. mycoides		Ben181					NCBI Prokaryotic Genome Annotation Pipeline (PGAP)	Complete Genome	2016-02-09		1

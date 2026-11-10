@@ -1,0 +1,42 @@
+,Assembly Name,Assembly Accession,Assembly Paired Assembly Accession,Organism Name,Organism Infraspecific Names Breed,Organism Infraspecific Names Strain,Organism Infraspecific Names Cultivar,Organism Infraspecific Names Ecotype,Organism Infraspecific Names Isolate,Organism Infraspecific Names Sex,Annotation Name,Assembly Level,Assembly Release Date,WGS project accession,Assembly Stats Number of Scaffolds
+0,ASM1838970v1,GCA_018389705.1,GCF_018389705.1,Mycoplasma mycoides subsp. capri,,PG3,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+1,ASM1838970v1,GCF_018389705.1,GCA_018389705.1,Mycoplasma mycoides subsp. capri,,PG3,,,,,GCF_018389705.1-RS_2025_12_10,Complete Genome,2021-05-17,,1
+36,ASM1676715v1,GCA_016767155.1,GCF_016767155.1,Mycoplasma mycoides subsp. capri,,Ker.TCR. LT,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-01-28,,1
+37,ASM1676715v1,GCF_016767155.1,GCA_016767155.1,Mycoplasma mycoides subsp. capri,,Ker.TCR. LT,,,,,GCF_016767155.1-RS_2026_02_26,Complete Genome,2021-01-28,,1
+38,ASM1838956v1,GCA_018389565.1,GCF_018389565.1,Mycoplasma mycoides subsp. capri,,My-I,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+39,ASM1838956v1,GCF_018389565.1,GCA_018389565.1,Mycoplasma mycoides subsp. capri,,My-I,,,,,GCF_018389565.1-RS_2026_02_26,Complete Genome,2021-05-17,,1
+40,ASM1838962v1,GCA_018389625.1,GCF_018389625.1,Mycoplasma mycoides subsp. capri,,M-18,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+41,ASM1838962v1,GCF_018389625.1,GCA_018389625.1,Mycoplasma mycoides subsp. capri,,M-18,,,,,GCF_018389625.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+42,ASM1838958v1,GCA_018389585.1,GCF_018389585.1,Mycoplasma mycoides subsp. capri,,My-325,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+43,ASM1838958v1,GCF_018389585.1,GCA_018389585.1,Mycoplasma mycoides subsp. capri,,My-325,,,,,GCF_018389585.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+44,ASM1838976v1,GCA_018389765.1,GCF_018389765.1,Mycoplasma mycoides subsp. capri,,7730,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+45,ASM1838976v1,GCF_018389765.1,GCA_018389765.1,Mycoplasma mycoides subsp. capri,,7730,,,,,GCF_018389765.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+46,ASM1838960v1,GCA_018389605.1,GCF_018389605.1,Mycoplasma mycoides subsp. capri,,M-5,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+47,ASM1838960v1,GCF_018389605.1,GCA_018389605.1,Mycoplasma mycoides subsp. capri,,M-5,,,,,GCF_018389605.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+48,ASM126781v1,GCF_001267815.1,GCA_001267815.1,Mycoplasma mycoides subsp. capri,,GM12,,,,,GCF_001267815.1-RS_2026_02_26,Complete Genome,2015-08-17,,1
+59,ASM2616764v1,GCA_026167645.1,GCF_026167645.1,Mycoplasma mycoides subsp. capri,,HN-A,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2022-11-14,,1
+60,ASM2616764v1,GCF_026167645.1,GCA_026167645.1,Mycoplasma mycoides subsp. capri,,HN-A,,,,,GCF_026167645.1-RS_2025_12_21,Complete Genome,2022-11-14,,1
+61,ASM1838964v1,GCA_018389645.1,GCF_018389645.1,Mycoplasma mycoides subsp. capri,,IVB-X,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+62,ASM1838964v1,GCF_018389645.1,GCA_018389645.1,Mycoplasma mycoides subsp. capri,,IVB-X,,,,,GCF_018389645.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+91,ASM1838968v1,GCA_018389685.1,GCF_018389685.1,Mycoplasma mycoides subsp. capri,,G1283.94,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+92,ASM1838968v1,GCF_018389685.1,GCA_018389685.1,Mycoplasma mycoides subsp. capri,,G1283.94,,,,,GCF_018389685.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+93,ASM1838966v1,GCA_018389665.1,GCF_018389665.1,Mycoplasma mycoides subsp. capri,,G1313.94,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+94,ASM1838966v1,GCF_018389665.1,GCA_018389665.1,Mycoplasma mycoides subsp. capri,,G1313.94,,,,,GCF_018389665.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+95,ASM1838982v1,GCA_018389825.1,GCF_018389825.1,Mycoplasma mycoides subsp. capri,,152/93,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,2
+96,ASM1838982v1,GCF_018389825.1,GCA_018389825.1,Mycoplasma mycoides subsp. capri,,152/93,,,,,GCF_018389825.1-RS_2026_02_26,Complete Genome,2021-05-17,,2
+97,ASM5682974v1,GCA_056829745.1,GCF_056829745.1,Mycoplasma mycoides subsp. capri,,KY230116,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2026-04-21,,1
+98,ASM5682974v1,GCF_056829745.1,GCA_056829745.1,Mycoplasma mycoides subsp. capri,,KY230116,,,,,GCF_056829745.1-RS_2026_04_22,Complete Genome,2026-04-21,,1
+99,ASM1838954v1,GCA_018389545.1,GCF_018389545.1,Mycoplasma mycoides subsp. capri,,Wi8079,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+100,ASM1838954v1,GCF_018389545.1,GCA_018389545.1,Mycoplasma mycoides subsp. capri,,Wi8079,,,,,GCF_018389545.1-RS_2026_04_03,Complete Genome,2021-05-17,,1
+101,ASM1838980v1,GCA_018389805.1,GCF_018389805.1,Mycoplasma mycoides subsp. capri,,171/93,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+102,ASM1838980v1,GCF_018389805.1,GCA_018389805.1,Mycoplasma mycoides subsp. capri,,171/93,,,,,GCF_018389805.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+103,ASM1838972v1,GCA_018389725.1,GCF_018389725.1,Mycoplasma mycoides subsp. capri,,83/93,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+104,ASM1838972v1,GCF_018389725.1,GCA_018389725.1,Mycoplasma mycoides subsp. capri,,83/93,,,,,GCF_018389725.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+105,ASM1838974v1,GCA_018389745.1,GCF_018389745.1,Mycoplasma mycoides subsp. capri,,80/93,,,,,NCBI Prokaryotic Genome Annotation Pipeline (PGAP),Complete Genome,2021-05-17,,1
+106,ASM1838974v1,GCF_018389745.1,GCA_018389745.1,Mycoplasma mycoides subsp. capri,,80/93,,,,,GCF_018389745.1-RS_2025_12_20,Complete Genome,2021-05-17,,1
+109,ASM2316v1,GCA_000023165.1,GCF_000023165.1,Mycoplasma mycoides subsp. capri str. GM12,,GM12,,,,,Annotation submitted by J. Craig Venter Institute,Complete Genome,2009-08-21,,1
+110,ASM2316v1,GCF_000023165.1,GCA_000023165.1,Mycoplasma mycoides subsp. capri str. GM12,,GM12,,,,,GCF_000023165.1-RS_2026_02_26,Complete Genome,2009-08-21,,1
+112,ASM2368v1,GCA_000023685.1,GCF_000023685.1,Mycoplasma mycoides subsp. capri str. GM12,,GM12,,,,,Annotation submitted by JCVI,Complete Genome,2009-08-21,,1
+113,ASM2368v1,GCF_000023685.1,GCA_000023685.1,Mycoplasma mycoides subsp. capri str. GM12,,GM12,,,,,GCF_000023685.1-RS_2025_08_05,Complete Genome,2009-08-21,,1
+116,ASM25307v1,GCA_000253075.1,GCF_000253075.1,Mycoplasma mycoides subsp. capri LC str. 95010,,95010,,,,,Annotation submitted by Genoscope,Complete Genome,2011-04-12,,2
+117,ASM25307v1,GCF_000253075.1,GCA_000253075.1,Mycoplasma mycoides subsp. capri LC str. 95010,,95010,,,,,GCF_000253075.1-RS_2026_02_26,Complete Genome,2011-04-12,,2

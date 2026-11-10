@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Базы данных
+*.duckdb
+*.duckdb.wal
+
+# Большие данные пангеномов
+*.fasta
+*.embl
+*.bs
+*.ba
+*.bi
+*.blast
+*.zip
