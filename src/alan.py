@@ -212,12 +212,27 @@ def main():
                 core_percent = round((core_stop - core_start + 1)/(group_stop - group_start + 1), 4)*100
                 result["core_%"].append(core_percent)
                 mistake_type = ""
-                if ((result["ori"][-1] == 1) and (result["start"][-1] != result["core_start"][-1])) or ((result["ori"][-1] == -1) and (result["stop"][-1] != result["core_stop"][-1])):
-                    mistake_type += "/wrong start"
+                if result["ori"][-1] == 1:
+                    if result["start"][-1] != result["core_start"][-1]:
+                        starts = group_table["npg_block_min"].value_counts().reset_index()
+                        starts["pct"] = starts["count"]/sum(starts["count"])
+                        if starts.iloc[0, -1] > 0.5:
+                            mistake_type += "/wrong start"
+                        else:
+                            mistake_type += "/possible wrong start"
+                if result["ori"][-1] == -1:
+                    if result["stop"][-1] != result["core_stop"][-1]:
+                        starts = group_table["npg_block_max"].value_counts().reset_index()
+                        starts["pct"] = starts["count"]/sum(starts["count"])
+                        if starts.iloc[0, -1] > 0.5:
+                            mistake_type += "/wrong start"
+                        else:
+                            mistake_type += "/possible wrong start"
                 if (result["genes_num"][-1] < result["seq_num"][-1]) and is_start and is_stop:
-                    mistake_type += "/annotation loss"
-                if result["genes_num"][-1] > result["seq_num"][-1]:
-                    mistake_type += "/crossing genes"
+                    if result["genes_num"][-1] > result["seq_num"][-1]/2:
+                        mistake_type += "/annotation loss"
+                    else:
+                        mistake_type += "/possible annotation loss"
                 if mistake_type == "":
                     mistake_type = "no mistake"
                 result["group_type"].append(mistake_type)

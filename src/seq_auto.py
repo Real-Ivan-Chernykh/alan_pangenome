@@ -143,6 +143,8 @@ def get_sequence_details(sequence_uids, batch_size=200):
             organism = gb.get("GBSeq_organism")
             topology = gb.get("GBSeq_topology")
             definition = gb.get("GBSeq_definition")
+            length = gb.get("GBSeq_length")
+            genes_num = len(gb.get("GBSeq_feature-table"))
 
             chromosome = extract_chromosome_from_definition(definition)
 
@@ -151,7 +153,9 @@ def get_sequence_details(sequence_uids, batch_size=200):
                 "organism_abbrev": make_organism_abbreviation(organism),
                 "chromosome": chromosome,
                 "topology": topology[0],
-                "definition": definition
+                "definition": definition,
+                "length": length,
+                "genes_num": genes_num
             }
 
     return details
@@ -207,6 +211,8 @@ def process_assembly_table(table, assembly_col=ASSEMBLY_COL, linkname=LINKNAME):
                     "organism_abbrev": None,
                     "chromosome": None,
                     "topology": None,
+                    "length": None,
+                    "genes_num": None,
                     "definition": None,
                     "status": "no_sequences_found"
                 })
@@ -226,6 +232,8 @@ def process_assembly_table(table, assembly_col=ASSEMBLY_COL, linkname=LINKNAME):
                     "organism_abbrev": info.get("organism_abbrev"),
                     "chromosome": info.get("chromosome"),
                     "topology": info.get("topology"),
+                    "length": info.get("length"),
+                    "genes_num": info.get("genes_num"),
                     "definition": info.get("definition"),
                     "status": "ok"
                 })
@@ -244,6 +252,8 @@ def process_assembly_table(table, assembly_col=ASSEMBLY_COL, linkname=LINKNAME):
                 "organism_abbrev": None,
                 "chromosome": None,
                 "topology": None,
+                "length": None,
+                "genes_num": None,
                 "definition": None,
                 "status": f"error: {e}"
             })
@@ -325,6 +335,7 @@ def table_func(args, output_dir):
     table = process_assembly_table(args.table, assembly_col=args.assembly_col, linkname=args.linkname)
     table = unify_assembly_abbreviations(table)
     table = table.drop_duplicates("sequence_accession")
+    table.to_csv(output_dir/"info_table.csv")
     table["sequence_accession"] = "all:embl:" + table["sequence_accession"]
     table = table[["sequence_accession", "organism_abbrev", "chromosome", "topology", "definition"]]
     table.to_csv(output_dir/"genomes.tsv", sep="\t", index=False, header=False)
