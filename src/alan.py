@@ -103,11 +103,6 @@ def group_table_f(group_table_in: pd.DataFrame, group_id: int, outdir: str, mut_
     write_table(group_table_out, group_id, outdir, out_excel)
     return(group_table_out["is_start"].all(), group_table_out["is_stop"].all(), linked_table)
 
-def final_statistics(table: pd.DataFrame, outdir: str, out_excel: bool) -> None:
-    counts = table["group_type"].value_counts().sort_index().reset_index()
-    counts.columns = ["group_type", "count"]
-    write_table(counts, "final_statistics", outdir, out_excel, index = False)
-
 def name_change(groups: pd.DataFrame, indir: str) -> pd.DataFrame:
     genomes = pd.read_csv(f"{indir}/genomes.tsv", sep = "\t", header = None, names = ["ac", "abbrev", "seq_type", "c/l", "definition"])
     genomes["merged_cols"] = genomes["abbrev"] + "&" + genomes["seq_type"] +  "&" + genomes["c/l"]
@@ -147,7 +142,23 @@ def main():
                     line = infile.readline()
                     line_split = line.split("\t")
 
-    result = {"block": [], "block_type": [], "seq_num": [], "block_len": [], "ori": [], "start": [], "stop": [], "len": [], "core_start": [], "core_stop": [], "core_len": [], "genes_num": [], "is_true_start": [], "is_true_stop": [], "core_%": [], "group_type": []}
+    result = {"block": [],
+              "block_type": [],
+              "seq_num": [],
+              "block_len": [],
+              "ori": [],
+              "start": [],
+              "stop": [],
+              "len": [],
+              "core_start": [],
+              "core_stop": [],
+              "core_len": [],
+              "genes_num": [],
+              "is_true_start": [],
+              "is_true_stop": [],
+              "core_%": [],
+              "annotation_loss": [],
+              "wrong_start": []}
     seqs = table["sequence"].unique()
     for seq in seqs:
         result[seq] = []
@@ -211,52 +222,35 @@ def main():
                 result["is_true_stop"].append(is_stop)
                 core_percent = round((core_stop - core_start + 1)/(group_stop - group_start + 1), 4)*100
                 result["core_%"].append(core_percent)
-                mistake_type = ""
                 if result["ori"][-1] == 1:
                     if result["start"][-1] != result["core_start"][-1]:
                         starts = group_table["npg_block_min"].value_counts().reset_index()
                         starts["pct"] = starts["count"]/sum(starts["count"])
                         if starts.iloc[0, -1] > 0.5:
-                            mistake_type += "/wrong start"
+                            result["wrong_start"].append("Wrong start")
                         else:
-                            mistake_type += "/possible wrong start"
-                if result["ori"][-1] == -1:
+                            result["wrong_start"].append("Possible wrong start")
+                    else:
+                        result["wrong_start"].append("No mistake")
+                else:
                     if result["stop"][-1] != result["core_stop"][-1]:
                         starts = group_table["npg_block_max"].value_counts().reset_index()
                         starts["pct"] = starts["count"]/sum(starts["count"])
                         if starts.iloc[0, -1] > 0.5:
-                            mistake_type += "/wrong start"
+                            result["wrong_start"].append("Wrong start")
                         else:
-                            mistake_type += "/possible wrong start"
+                            result["wrong_start"].append("Possible wrong start")
+                    else:
+                        result["wrong_start"].append("No mistake")
                 if (result["genes_num"][-1] < result["seq_num"][-1]) and is_start and is_stop:
                     if result["genes_num"][-1] > result["seq_num"][-1]/2:
-                        mistake_type += "/annotation loss"
+                        result["annotation_loss"].append("Annotation loss")
                     else:
-                        mistake_type += "/possible annotation loss"
-                if mistake_type == "":
-                    mistake_type = "no mistake"
-                result["group_type"].append(mistake_type)
+                        result["annotation_loss"].append("Possible annotation loss")
+                else:
+                    result["annotation_loss"].append("No mistake")
     groups = pd.DataFrame(result)
-    final_statistics(groups, outdir, out_excel)
     write_table(linked_table, "linked_table", outdir, out_excel)
-    linked_groups = groups[groups["group_type"] == 3]
-    for line_number in range(len(linked_groups)):
-        if out_excel:
-            group = pd.read_excel(f"{outdir}/groups/{linked_groups.iloc[line_number, :].name}.xlsx", index_col = 0)
-        else:
-            group = pd.read_csv(f"{outdir}/groups/{linked_groups.iloc[line_number, :].name}.csv")
-        for gene_number in range(len(group)):
-            if not group.iloc[gene_number, 9]:
-                try:
-                    group.iloc[gene_number, 11] = linked_table[(linked_table["gene"] == group.iloc[gene_number, 0]) & ((linked_table["gene_stop"] + 1) == group.iloc[gene_number, 4])].iloc[0, 13]
-                except Exception:
-                    pass
-            if not group.iloc[gene_number, 10]:
-                try:
-                    group.iloc[gene_number, 12] = linked_table[(linked_table["gene"] == group.iloc[gene_number, 0]) & ((linked_table["gene_start"] - 1) == group.iloc[gene_number, 5])].iloc[0, 13]
-                except Exception:
-                    pass
-        write_table(group, linked_groups.iloc[line_number, :].name, f"{outdir}/groups/", out_excel)
     groups = name_change(groups, indir)
     write_table(groups, "groups", outdir, out_excel)
 

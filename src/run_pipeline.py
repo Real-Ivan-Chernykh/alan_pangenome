@@ -60,6 +60,10 @@ def parse_args():
         help="Запустить только alan",
     )
 
+    # Параметры auto_npge
+    parser.add_argument("-i", "--identity", help = "Минимальное сходство для блока, доля")
+    parser.add_argument("-l", "--length", help = "Минимальная длина блока, пары нуклеотидов")
+
     # Параметры alan
     parser.add_argument(
         "-c", "--csv",
@@ -205,6 +209,11 @@ def main():
         commands["seq_auto"] = seq_cmd
 
     commands["auto_npge"] = [sys.executable, str(AUTO_NPGE_SCRIPT), str(directory)]
+    if args.identity is not None:
+        commands["auto_npge"] += ["-i", str(args.identity)]
+    if args.length is not None:
+        commands["auto_npge"] += ["-l", str(args.length)]
+
     commands["alan"] = [
         sys.executable, str(ALAN_SCRIPT),
         str(directory),
