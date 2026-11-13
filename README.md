@@ -13,8 +13,9 @@
 - **Группа ортологических генов** &mdash; группа генов, лежащая в одном блоке и имеющая пересечения по позиции внутри этого блока, при этом сами гены могут лежать на разных последовательностях.
 
 ### Ключевые результаты
-Сравнение количества потенциальных ошибок аннотации в группах ортологических генов пангеномов *Mycoplasma mycoides* subsp. *mycoides* и *Mycoplasma mycoides* subsp. *capri*: <br>
-![Количество ортологических групп генов с потенциальными ошибками аннотации в двух пангеномах](results/figures/pangenomes_compare.png) <br>
+Сравнение количества потенциальных ошибок аннотации в группах ортологических генов пангеномов *Mycoplasma mycoides* subsp. *mycoides* и *Mycoplasma mycoides* subsp. *capri* (построенных как с обычным порогом сходства в 90%, так и в 95%): <br>
+![Количество ортологических групп генов с ошибками аннотации в пангеномах](results/figures/pangenomes_compare_anno.png) <br>
+![Количество ортологических групп генов с ошибками старта аннотации в пангеномах](results/figures/pangenomes_compare_start.png) <br>
 Количество проблемных мест с аннотацией заметно выше в пангеноме subsp. *mycoides*, чем в subsp. *capri*, например, количество пропусков аннотации составляет 85 у *mycoides* против 18 у *capri*. <br>
 Данные по блокам в пангеноме *Mycoplasma mycoides* subsp. *mycoides*: <br>
 ![Данные по разным типам блоков в пангеноме Mycoplasma mycoides subsp. mycoides, а именно: число блоков, процент их числа, процент с учётом длины и средняя длина](results/figures/mycoides_block_data.png) <br>
@@ -36,7 +37,10 @@ alan_pangenome/
 │   ├── mycoplasma_mycoides_subsp_capri/
 │   |   ├── alan_result/   # таблицы групп ортологических генов
 │   |   └── trees/         # деревья
-│   └── mycoplasma_mycoides_subsp_mycoides/
+│   ├── mycoplasma_mycoides_subsp_mycoides/
+│   |   ├── alan_result/   # таблицы групп ортологических генов
+│   |   └── trees/         # деревья
+│   └── mycoplasma_mycoides_subsp_mycoides_95/ # тот же пангеном mycoides, но построенный с порогом в 95% сходства
 │       ├── alan_result/   # таблицы групп ортологических генов
 │       └── trees/         # деревья
 ├── src/                   # скрипты пайплайна
