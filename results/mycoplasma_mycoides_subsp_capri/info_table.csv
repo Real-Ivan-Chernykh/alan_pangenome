@@ -1,0 +1,21 @@
+,assembly_id,assembly_uid,sequence_uid,sequence_accession,organism,organism_abbrev,chromosome,topology,length,genes_num,definition,status
+0,GCA_018389705.1,10066921,2040373310,CP065581.1,Mycoplasma mycoides subsp. capri,MYMY1,chromosome,c,1035494,1716,"Mycoplasma mycoides subsp. capri strain PG3 chromosome, complete genome",ok
+2,GCA_016767155.1,9194521,1966929254,CP068548.1,Mycoplasma mycoides subsp. capri,MYMY3,chromosome,c,1211756,2118,"Mycoplasma mycoides subsp. capri strain Ker.TCR. LT chromosome, complete genome",ok
+4,GCA_018389565.1,10066851,2040365006,CP065575.1,Mycoplasma mycoides subsp. capri,MYMY5,chromosome,c,1172610,1998,"Mycoplasma mycoides subsp. capri strain My-I chromosome, complete genome",ok
+6,GCA_018389625.1,10066881,2040369908,CP065577.1,Mycoplasma mycoides subsp. capri,MYMY7,chromosome,c,1165233,1980,"Mycoplasma mycoides subsp. capri strain M-18 chromosome, complete genome",ok
+8,GCA_018389585.1,10066861,2040365886,CP065576.1,Mycoplasma mycoides subsp. capri,MYMY9,chromosome,c,1159653,1976,"Mycoplasma mycoides subsp. capri strain My-325 chromosome, complete genome",ok
+10,GCA_018389765.1,10066951,2040375687,CP065584.1,Mycoplasma mycoides subsp. capri,MYMY11,chromosome,c,1114563,1858,"Mycoplasma mycoides subsp. capri strain 7730 chromosome, complete genome",ok
+12,GCA_018389605.1,10066871,2040369058,CP065588.1,Mycoplasma mycoides subsp. capri,MYMY13,chromosome,c,1097914,1854,"Mycoplasma mycoides subsp. capri strain M-5 chromosome, complete genome",ok
+15,GCA_026167645.1,14401171,2328532917,CP093215.1,Mycoplasma mycoides subsp. capri,MYMY16,chromosome,c,1084691,1810,"Mycoplasma mycoides subsp. capri strain HN-A chromosome, complete genome",ok
+17,GCA_018389645.1,10066891,2040370824,CP065578.1,Mycoplasma mycoides subsp. capri,MYMY18,chromosome,c,1084275,1824,"Mycoplasma mycoides subsp. capri strain IVB-X chromosome, complete genome",ok
+19,GCA_018389685.1,10066911,2040372493,CP065580.1,Mycoplasma mycoides subsp. capri,MYMY20,chromosome,c,1049305,1788,"Mycoplasma mycoides subsp. capri strain G1283.94 chromosome, complete genome",ok
+21,GCA_018389665.1,10066901,2040371678,CP065579.1,Mycoplasma mycoides subsp. capri,MYMY22,chromosome,c,1048951,1786,"Mycoplasma mycoides subsp. capri strain G1313.94 chromosome, complete genome",ok
+23,GCA_018389825.1,10066981,2040379022,CP068011.1,Mycoplasma mycoides subsp. capri,MYMY24,plasmidpMmc15293,c,1875,5,"Mycoplasma mycoides subsp. capri strain 152/93 plasmid pMmc_152_93, complete sequence",ok
+24,GCA_018389825.1,10066981,2040378207,CP068010.1,Mycoplasma mycoides subsp. capri,MYMY24,chromosome,c,1044454,1740,"Mycoplasma mycoides subsp. capri strain 152/93 chromosome, complete genome",ok
+27,GCA_056829745.1,85320148,3277167682,CP168310.1,Mycoplasma mycoides subsp. capri,MYMY28,chromosome,c,1035414,1766,"Mycoplasma mycoides subsp. capri strain KY230116 chromosome, complete genome",ok
+29,GCA_018389545.1,10066841,2040364209,CP065574.1,Mycoplasma mycoides subsp. capri,MYMY30,chromosome,c,1034934,1712,"Mycoplasma mycoides subsp. capri strain Wi8079 chromosome, complete genome",ok
+31,GCA_018389805.1,10066971,2040377405,CP065586.1,Mycoplasma mycoides subsp. capri,MYMY32,chromosome,c,1030242,1714,"Mycoplasma mycoides subsp. capri strain 171/93 chromosome, complete genome",ok
+33,GCA_018389725.1,10066931,2040374100,CP065582.1,Mycoplasma mycoides subsp. capri,MYMY34,chromosome,c,1026354,1702,"Mycoplasma mycoides subsp. capri strain 83/93 chromosome, complete genome",ok
+35,GCA_018389745.1,10066941,2040374890,CP065583.1,Mycoplasma mycoides subsp. capri,MYMY36,chromosome,c,1019889,1700,"Mycoplasma mycoides subsp. capri strain 80/93 chromosome, complete genome",ok
+41,GCA_000253075.1,441428,328802524,FQ790215.1,Mycoplasma mycoides subsp. capri LC str. 95010,MYMY42,plasmid,c,1840,3,"Mycoplasma mycoides subsp. capri LC str. 95010 plasmid, complete genome",ok
+42,GCA_000253075.1,441428,328801575,FQ377874.1,Mycoplasma mycoides subsp. capri LC str. 95010,MYMY42,chromosome,c,1153998,1925,"Mycoplasma mycoides subsp. capri LC str. 95010 chromosome, complete sequence",ok

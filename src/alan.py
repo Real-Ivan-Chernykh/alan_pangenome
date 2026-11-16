@@ -158,7 +158,11 @@ def main():
               "is_true_stop": [],
               "core_%": [],
               "annotation_loss": [],
-              "wrong_start": []}
+              "annotation_loss_count": [],
+              "annotation_right_count": [],
+              "wrong_start": [],
+              "wrong_start_count": [],
+              "right_start_count": []}
     seqs = table["sequence"].unique()
     for seq in seqs:
         result[seq] = []
@@ -226,29 +230,41 @@ def main():
                     if result["start"][-1] != result["core_start"][-1]:
                         starts = group_table["npg_block_min"].value_counts().reset_index()
                         starts["pct"] = starts["count"]/sum(starts["count"])
+                        result["wrong_start_count"].append(sum(starts.iloc[1:, 1]))
+                        result["right_start_count"].append(starts.iloc[0, 1])
                         if starts.iloc[0, -1] > 0.5:
                             result["wrong_start"].append("Wrong start")
                         else:
                             result["wrong_start"].append("Possible wrong start")
                     else:
                         result["wrong_start"].append("No mistake")
+                        result["wrong_start_count"].append(0)
+                        result["right_start_count"].append(result["genes_num"][-1])
                 else:
                     if result["stop"][-1] != result["core_stop"][-1]:
                         starts = group_table["npg_block_max"].value_counts().reset_index()
                         starts["pct"] = starts["count"]/sum(starts["count"])
+                        result["wrong_start_count"].append(sum(starts.iloc[1:, 1]))
+                        result["right_start_count"].append(starts.iloc[0, 1])
                         if starts.iloc[0, -1] > 0.5:
                             result["wrong_start"].append("Wrong start")
                         else:
                             result["wrong_start"].append("Possible wrong start")
                     else:
                         result["wrong_start"].append("No mistake")
+                        result["wrong_start_count"].append(0)
+                        result["right_start_count"].append(result["genes_num"][-1])
                 if (result["genes_num"][-1] < result["seq_num"][-1]) and is_start and is_stop:
                     if result["genes_num"][-1] > result["seq_num"][-1]/2:
                         result["annotation_loss"].append("Annotation loss")
                     else:
                         result["annotation_loss"].append("Possible annotation loss")
+                    result["annotation_loss_count"].append(result["seq_num"][-1] - result["genes_num"][-1])
+                    result["annotation_right_count"].append(result["genes_num"][-1])
                 else:
                     result["annotation_loss"].append("No mistake")
+                    result["annotation_loss_count"].append(0)
+                    result["annotation_right_count"].append(result["genes_num"][-1])
     groups = pd.DataFrame(result)
     write_table(linked_table, "linked_table", outdir, out_excel)
     groups = name_change(groups, indir)

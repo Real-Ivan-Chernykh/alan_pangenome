@@ -1,0 +1,20 @@
+all:embl:CP065581.1	MYMY1	chromosome	c	Mycoplasma mycoides subsp. capri strain PG3 chromosome, complete genome
+all:embl:CP068548.1	MYMY3	chromosome	c	Mycoplasma mycoides subsp. capri strain Ker.TCR. LT chromosome, complete genome
+all:embl:CP065575.1	MYMY5	chromosome	c	Mycoplasma mycoides subsp. capri strain My-I chromosome, complete genome
+all:embl:CP065577.1	MYMY7	chromosome	c	Mycoplasma mycoides subsp. capri strain M-18 chromosome, complete genome
+all:embl:CP065576.1	MYMY9	chromosome	c	Mycoplasma mycoides subsp. capri strain My-325 chromosome, complete genome
+all:embl:CP065584.1	MYMY11	chromosome	c	Mycoplasma mycoides subsp. capri strain 7730 chromosome, complete genome
+all:embl:CP065588.1	MYMY13	chromosome	c	Mycoplasma mycoides subsp. capri strain M-5 chromosome, complete genome
+all:embl:CP093215.1	MYMY16	chromosome	c	Mycoplasma mycoides subsp. capri strain HN-A chromosome, complete genome
+all:embl:CP065578.1	MYMY18	chromosome	c	Mycoplasma mycoides subsp. capri strain IVB-X chromosome, complete genome
+all:embl:CP065580.1	MYMY20	chromosome	c	Mycoplasma mycoides subsp. capri strain G1283.94 chromosome, complete genome
+all:embl:CP065579.1	MYMY22	chromosome	c	Mycoplasma mycoides subsp. capri strain G1313.94 chromosome, complete genome
+all:embl:CP068011.1	MYMY24	plasmidpMmc15293	c	Mycoplasma mycoides subsp. capri strain 152/93 plasmid pMmc_152_93, complete sequence
+all:embl:CP068010.1	MYMY24	chromosome	c	Mycoplasma mycoides subsp. capri strain 152/93 chromosome, complete genome
+all:embl:CP168310.1	MYMY28	chromosome	c	Mycoplasma mycoides subsp. capri strain KY230116 chromosome, complete genome
+all:embl:CP065574.1	MYMY30	chromosome	c	Mycoplasma mycoides subsp. capri strain Wi8079 chromosome, complete genome
+all:embl:CP065586.1	MYMY32	chromosome	c	Mycoplasma mycoides subsp. capri strain 171/93 chromosome, complete genome
+all:embl:CP065582.1	MYMY34	chromosome	c	Mycoplasma mycoides subsp. capri strain 83/93 chromosome, complete genome
+all:embl:CP065583.1	MYMY36	chromosome	c	Mycoplasma mycoides subsp. capri strain 80/93 chromosome, complete genome
+all:embl:FQ790215.1	MYMY42	plasmid	c	Mycoplasma mycoides subsp. capri LC str. 95010 plasmid, complete genome
+all:embl:FQ377874.1	MYMY42	chromosome	c	Mycoplasma mycoides subsp. capri LC str. 95010 chromosome, complete sequence

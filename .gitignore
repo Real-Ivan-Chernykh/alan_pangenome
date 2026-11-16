@@ -1,9 +1,11 @@
 # Python
 __pycache__/
 *.pyc
+rename_tree.py
 
 # Jupyter
 .ipynb_checkpoints/
+Untitled.ipynb
 
 # Базы данных
 *.duckdb
@@ -17,3 +19,10 @@ __pycache__/
 *.bi
 *.blast
 *.zip
+pangenome/
+check/
+examine/
+extra-blocks/
+genes/
+global-blocks/
+mutations/

@@ -1,0 +1,19 @@
+,assembly_id,assembly_uid,sequence_uid,sequence_accession,organism,organism_abbrev,chromosome,topology,length,genes_num,definition,status
+0,GCA_000011445.1,32568,126252003,BX293980.2,Mycoplasma mycoides subsp. mycoides SC str. PG1,MYMY1,chromosome,c,1211703,2317,"Mycoplasma mycoides subsp. mycoides SC str. PG1, complete genome",ok
+2,GCA_051054185.1,75062018,3004450681,CP144020.1,Mycoplasma mycoides subsp. mycoides,MYMY3,chromosome,c,1197145,2157,"Mycoplasma mycoides subsp. mycoides strain 6364 chromosome, complete genome",ok
+4,GCA_051052435.1,75060018,3004407304,CP143997.1,Mycoplasma mycoides subsp. mycoides,MYMY5,chromosome,c,1197144,2157,"Mycoplasma mycoides subsp. mycoides strain Afade-1 chromosome, complete genome",ok
+6,GCA_051052395.1,75059938,3004405457,CP143993.1,Mycoplasma mycoides subsp. mycoides,MYMY7,chromosome,c,1196106,2141,"Mycoplasma mycoides subsp. mycoides strain Fatick chromosome, complete genome",ok
+8,GCA_000800785.1,233931,731474337,CP010267.1,Mycoplasma mycoides subsp. mycoides,MYMY9,chromosome,c,1192498,2231,"Mycoplasma mycoides subsp. mycoides strain izsam_mm5713, complete genome",ok
+10,GCA_001564435.1,643441,998636880,CP014346.1,Mycoplasma mycoides subsp. mycoides,MYMY11,chromosome,c,1188848,2297,"Mycoplasma mycoides subsp. mycoides strain T1/44, complete genome",ok
+12,GCA_051052425.1,75059998,3004406391,CP143996.1,Mycoplasma mycoides subsp. mycoides,MYMY13,chromosome,c,1182751,2129,"Mycoplasma mycoides subsp. mycoides strain B773-125 chromosome, complete genome",ok
+14,GCA_051052265.1,75059678,3004384472,CP143980.1,Mycoplasma mycoides subsp. mycoides,MYMY15,chromosome,c,1180914,2123,"Mycoplasma mycoides subsp. mycoides strain PO-2 chromosome, complete genome",ok
+16,GCA_059718665.1,90010858,3331605826,AP046133.1,Mycoplasma mycoides subsp. mycoides,MYMY17,chromosome,c,1180098,2279,"Mycoplasma mycoides subsp. mycoides V DNA, complete genome",ok
+18,GCA_051054195.1,75062038,3004455513,CP144021.1,Mycoplasma mycoides subsp. mycoides,MYMY19,chromosome,c,1179881,2119,"Mycoplasma mycoides subsp. mycoides strain 4378 chromosome, complete genome",ok
+20,GCA_051054175.1,75061998,3004449107,CP144019.1,Mycoplasma mycoides subsp. mycoides,MYMY21,chromosome,c,1177501,2127,"Mycoplasma mycoides subsp. mycoides strain 91130 chromosome, complete genome",ok
+22,GCA_051054235.1,75062098,3004452287,CP144023.1,Mycoplasma mycoides subsp. mycoides,MYMY23,chromosome,c,1171396,2099,"Mycoplasma mycoides subsp. mycoides strain 2059 chromosome, complete genome",ok
+24,GCA_001554075.1,638461,987476230,CP011261.1,Mycoplasma mycoides subsp. mycoides,MYMY25,chromosome,c,1161055,2097,"Mycoplasma mycoides subsp. mycoides strain Ben50, complete genome",ok
+26,GCA_001554055.1,638451,987475223,CP011260.1,Mycoplasma mycoides subsp. mycoides,MYMY27,chromosome,c,1145921,2083,"Mycoplasma mycoides subsp. mycoides strain Ben1, complete genome",ok
+28,GCA_001554115.1,638481,987478296,CP011263.1,Mycoplasma mycoides subsp. mycoides,MYMY29,chromosome,c,1109375,2027,"Mycoplasma mycoides subsp. mycoides strain Ben326, complete genome",ok
+30,GCA_001554155.1,638491,987479275,CP011264.1,Mycoplasma mycoides subsp. mycoides,MYMY31,chromosome,c,1091780,2033,"Mycoplasma mycoides subsp. mycoides strain Ben468, complete genome",ok
+32,GCA_000143865.1,589028,301320388,CP002107.1,Mycoplasma mycoides subsp. mycoides SC str. Gladysdale,MYMY33,chromosome,c,1193808,2276,"Mycoplasma mycoides subsp. mycoides SC str. Gladysdale MU clone SC5, complete genome",ok
+34,GCA_001554095.1,638471,987477244,CP011262.1,Mycoplasma mycoides subsp. mycoides,MYMY35,chromosome,c,1149615,2177,"Mycoplasma mycoides subsp. mycoides strain Ben181, complete genome",ok
